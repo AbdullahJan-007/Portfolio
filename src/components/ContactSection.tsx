@@ -140,6 +140,7 @@ export default function ContactSection() {
                 required
               />
             </motion.div>
+
             <motion.div className="space-y-2" variants={itemVariants}>
               <label className="text-xs font-semibold uppercase tracking-[0.25em] text-white/60">
                 Message

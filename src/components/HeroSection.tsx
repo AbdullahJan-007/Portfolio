@@ -119,7 +119,6 @@ export default function HeroSection() {
               Leading Vixroa Tech — premium full-stack engineering services.
             </span>
           </motion.div>
-
         </motion.div>
       </div>
     </section>

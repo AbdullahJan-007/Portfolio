@@ -128,10 +128,6 @@ const iconStroke = {
 
 const getIcon = (icon: string, label: string) => {
   switch (icon) {
-    case "node":
-      return (
-        <img src="/images/skill-node.png" alt="" className="h-7 w-7 rounded" />
-      );
     case "next":
       return (
         <img src="/images/skill-next.png" alt="" className="h-7 w-7 rounded" />
@@ -140,58 +136,14 @@ const getIcon = (icon: string, label: string) => {
       return (
         <img src="/images/skill-react.png" alt="" className="h-7 w-7 rounded" />
       );
-    case "api-logo":
+    case "node":
       return (
-        <img src="/images/skill-api.png" alt="" className="h-7 w-7 rounded" />
+        <img src="/images/skill-node.png" alt="" className="h-7 w-7 rounded" />
       );
-    case "tailwind":
+    case "typescript":
       return (
         <img
-          src="/images/skill-tailwind.png"
-          alt=""
-          className="h-7 w-7 rounded"
-        />
-      );
-    case "js":
-      return (
-        <img src="/images/skill-js.png" alt="" className="h-7 w-7 rounded" />
-      );
-    case "css":
-      return (
-        <img src="/images/skill-css.png" alt="" className="h-7 w-7 rounded" />
-      );
-    case "html":
-      return (
-        <img src="/images/skill-html.png" alt="" className="h-7 w-7 rounded" />
-      );
-    case "ds":
-      return (
-        <img src="/images/skill-ds.png" alt="" className="h-7 w-7 rounded" />
-      );
-    case "oops":
-      return (
-        <img src="/images/skill-oops.png" alt="" className="h-7 w-7 rounded" />
-      );
-    case "cpp":
-      return (
-        <img src="/images/skill-cpp.png" alt="" className="h-7 w-7 rounded" />
-      );
-    case "mongodb":
-      return (
-        <img
-          src="/images/skill-mongodb.png"
-          alt=""
-          className="h-7 w-7 rounded-full"
-        />
-      );
-    case "mysql":
-      return (
-        <img src="/images/skill-mysql.png" alt="" className="h-7 w-7 rounded" />
-      );
-    case "sqlite":
-      return (
-        <img
-          src="/images/skill-sqlite.png"
+          src="/images/skill-typescript.png"
           alt=""
           className="h-7 w-7 rounded"
         />
@@ -204,13 +156,61 @@ const getIcon = (icon: string, label: string) => {
           className="h-7 w-7 rounded"
         />
       );
-    case "typescript":
+    case "sqlite":
       return (
         <img
-          src="/images/skill-typescript.png"
+          src="/images/skill-sqlite.png"
           alt=""
           className="h-7 w-7 rounded"
         />
+      );
+    case "mysql":
+      return (
+        <img src="/images/skill-mysql.png" alt="" className="h-7 w-7 rounded" />
+      );
+    case "mongodb":
+      return (
+        <img
+          src="/images/skill-mongodb.png"
+          alt=""
+          className="h-7 w-7 rounded-full"
+        />
+      );
+    case "cpp":
+      return (
+        <img src="/images/skill-cpp.png" alt="" className="h-7 w-7 rounded" />
+      );
+    case "oops":
+      return (
+        <img src="/images/skill-oops.png" alt="" className="h-7 w-7 rounded" />
+      );
+    case "ds":
+      return (
+        <img src="/images/skill-ds.png" alt="" className="h-7 w-7 rounded" />
+      );
+    case "html":
+      return (
+        <img src="/images/skill-html.png" alt="" className="h-7 w-7 rounded" />
+      );
+    case "css":
+      return (
+        <img src="/images/skill-css.png" alt="" className="h-7 w-7 rounded" />
+      );
+    case "js":
+      return (
+        <img src="/images/skill-js.png" alt="" className="h-7 w-7 rounded" />
+      );
+    case "tailwind":
+      return (
+        <img
+          src="/images/skill-tailwind.png"
+          alt=""
+          className="h-7 w-7 rounded"
+        />
+      );
+    case "api-logo":
+      return (
+        <img src="/images/skill-api.png" alt="" className="h-7 w-7 rounded" />
       );
     case "db":
       return (

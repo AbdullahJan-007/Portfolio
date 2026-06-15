@@ -79,7 +79,7 @@ export default function AboutSection() {
             className="max-w-2xl text-base text-white/70 sm:text-lg"
             variants={itemVariants}
           >
-            I’m Abdullah Jan, a full stack developer who blends technical depth
+            I’m Abdullah Jan, a full stack engineer who blends technical depth
             with thoughtful design. I thrive on shipping reliable products,
             collaborating across teams, and bringing a calm, focused energy to
             every project.
