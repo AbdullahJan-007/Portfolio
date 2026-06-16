@@ -33,10 +33,10 @@ const PROJECTS = [
     demo: "https://portfolio-management-system-ochre.vercel.app",
   },
   {
-    title: "Portfolio",
+    title: "My Portfolio",
     description:
       "Modern developer portfolio with animated hero, projects, skills, and contact sections.",
-    image: "/images/project-portfolio.png",
+    image: "/images/project-portfolio-old.png",
     stack: [
       { name: "Next.js", label: "N", tone: "from-slate-200 to-slate-400" },
       { name: "React", label: "R", tone: "from-cyan-400 to-blue-500" },
@@ -101,7 +101,7 @@ const containerVariants = {
 
 const cardVariants = {
   hidden: { opacity: 0, y: 22 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
+  show: { opacity: 1, y: 0, transition: { duration: 0.6 } },
 };
 
 export default function ProjectsSection() {

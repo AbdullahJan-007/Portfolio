@@ -7,7 +7,7 @@ const NAV_ITEMS = ["Home", "About", "Projects", "Skills", "Contact"] as const;
 
 const navVariants = {
   hidden: { opacity: 0, y: -16 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
+  show: { opacity: 1, y: 0, transition: { duration: 0.6 } },
 };
 
 const linkVariants = {
