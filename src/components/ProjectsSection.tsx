@@ -35,15 +35,15 @@ const PROJECTS = [
   {
     title: "My Portfolio",
     description:
-      "Modern developer portfolio with animated hero, projects, skills, and contact sections.",
+      "Modern developer portfolio with animated sections, custom project cards, and Resend-powered contact form.",
     image: "/images/project-portfolio-old.png",
     stack: [
       { name: "Next.js", label: "N", tone: "from-slate-200 to-slate-400" },
       { name: "React", label: "R", tone: "from-cyan-400 to-blue-500" },
       { name: "Tailwind", label: "T", tone: "from-sky-300 to-cyan-400" },
-      { name: "Framer", label: "F", tone: "from-fuchsia-400 to-purple-500" },
+      { name: "Resend", label: "R", tone: "from-fuchsia-400 to-purple-500" },
     ],
-    github: "https://github.com/AbdullahJan-007/Portfolio.git",
+    github: "https://github.com/AbdullahJan-007/Portfolio",
     demo: undefined,
   },
   {
