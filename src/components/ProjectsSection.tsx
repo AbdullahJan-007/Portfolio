@@ -33,18 +33,18 @@ const PROJECTS = [
     demo: "https://portfolio-management-system-ochre.vercel.app",
   },
   {
-    title: "Pulse Mobile",
+    title: "Portfolio",
     description:
-      "Cross-platform wellness app with offline-first experiences.",
-    image: "/images/project-pulse.svg",
+      "Modern developer portfolio with animated hero, projects, skills, and contact sections.",
+    image: "/images/project-portfolio.png",
     stack: [
+      { name: "Next.js", label: "N", tone: "from-slate-200 to-slate-400" },
       { name: "React", label: "R", tone: "from-cyan-400 to-blue-500" },
-      { name: "Expo", label: "E", tone: "from-slate-200 to-slate-400" },
-      { name: "GraphQL", label: "G", tone: "from-pink-400 to-fuchsia-500" },
-      { name: "Vercel", label: "V", tone: "from-slate-200 to-slate-500" },
+      { name: "Tailwind", label: "T", tone: "from-sky-300 to-cyan-400" },
+      { name: "Framer", label: "F", tone: "from-fuchsia-400 to-purple-500" },
     ],
-    github: "https://github.com/abdullahjan/pulse-mobile",
-    demo: "https://pulse.example.com",
+    github: "https://github.com/AbdullahJan-007/Portfolio.git",
+    demo: undefined,
   },
   {
     title: "Student Record Management System",
